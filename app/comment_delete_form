@@ -1,0 +1,5 @@
+{!! Form::open(['route' => ['comments.destroy', $comment->id], 'method' => 'DELETE']) !!}
+
+                {!! Form::submit('Delete', ['class' => 'btn btn-danger btn-block mt-1']) !!}
+
+              {!! Form::close() !!}
